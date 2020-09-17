@@ -48,7 +48,7 @@ with open('my_csv.csv') as csv_file: # open previosly created csv
     
     # This part need SOME IMPROVEMENT
     for row in csv_reader:
-        X, DOMAIN, EXPIRE, OWNER, REGISTRANT, HOSTING, theme, BackUp = row # Rows headers to iterate
+        X, DOMAIN, EXPIRE, OWNER, REGISTRANT, HOSTING = row # Rows headers to iterate
         print(EXPIRE[0:7])
         # if EXPIRE[0:7] == now.strftime('%Y-%m'):  # EXPIREs same month
         if (int(EXPIRE[5:7]) - 1) == int(now.strftime('%m')):  # EXPIREs next month Here we have a problem if month is 01, result is 0 instead of month 12
