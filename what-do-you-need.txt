@@ -1,0 +1,8 @@
+To use this code, you need:
+
+1- Go to Google APIs Console and create a new project to get your credentials, and download a JSON file
+rename it to "client_secret.json" and put it on same directory.
+2-File "settings.py" with your SENDER_EMAIL and SENDER_PASS information (to use it with SMTP)
+3-Code file "email-remainder-gdrive.py" that runs all the code.
+
+I use "Jupyter notebooks" or "Visual Studio Code" to run Python.
