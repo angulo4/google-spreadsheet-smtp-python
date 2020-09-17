@@ -1,5 +1,5 @@
 # google-spreadsheet-smtp-python
-Sending due date email remainders from a Google Spreadsheet using Python and SMTP</br>
+Sending due date email remainders from a Google Spreadsheet using Python with SMTP</br>
 
 How to send email remainders when a domain(hosting) is about to expire, using Google SpreadSheet and Python.</br>
 
