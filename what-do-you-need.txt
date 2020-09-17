@@ -5,4 +5,6 @@ Rename downloaded file to "client_secret.json" and put it on same directory.
 2-File "settings.py" with your SENDER_EMAIL and SENDER_PASS information (to use it with SMTP, same directory.
 3-File "email-remainder-gdrive.py" where is  the code that runs all. Same directory
 
+PD:There is a "demo" csv file (my_csv.csv) to see all the information that we are importing from Google SpreadSheet
+
 I use "Jupyter notebooks" or "Visual Studio Code" to run Python.
